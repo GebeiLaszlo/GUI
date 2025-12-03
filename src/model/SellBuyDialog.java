@@ -69,5 +69,4 @@ public class SellBuyDialog extends JDialog {
     }
 }
 
-public class SellBuyDialog {
-}
+
