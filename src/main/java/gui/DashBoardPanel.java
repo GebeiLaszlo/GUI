@@ -23,6 +23,7 @@ import java.awt.event.MouseEvent;
 import java.text.DecimalFormat;
 import java.util.List;
 
+
 public class DashBoardPanel extends JPanel {
 
     private final MockProductService productService = new MockProductService();
@@ -258,9 +259,20 @@ public class DashBoardPanel extends JPanel {
                 }
             }
 
-            @Override public void insertUpdate(DocumentEvent e) { updateFilter(); }
-            @Override public void removeUpdate(DocumentEvent e) { updateFilter(); }
-            @Override public void changedUpdate(DocumentEvent e) { updateFilter(); }
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                updateFilter();
+            }
+
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+                updateFilter();
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+                updateFilter();
+            }
         });
 
         return panel;
@@ -444,6 +456,7 @@ public class DashBoardPanel extends JPanel {
             super.paintComponent(g);
         }
     }
+
     public void showDialog(Frame owner) {
         JDialog dlg = new JDialog(owner, "Bolt statisztikák", true);
         dlg.setSize(400, 300);
@@ -479,4 +492,6 @@ public class DashBoardPanel extends JPanel {
 
         dlg.setVisible(true);
     }
+
+
 }
