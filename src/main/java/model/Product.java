@@ -2,7 +2,6 @@ package model;
 
 public class Product {
 
-    public int id;
 
     public String name;
     public String category;
@@ -12,8 +11,9 @@ public class Product {
 
     public String description;
 
-    public Product(String name, int stock, double sellingPrice) {
+    public Product() {
         this.name = name;
+        this.category = category;
         this.stock = stock;
         this.sellingPrice = sellingPrice;
         this.category = "Egyéb";
@@ -28,7 +28,49 @@ public class Product {
         this.description = description;
     }
 
-    public Product() {
+    private Long id;
+    private String cikkszam;
+    private String nev;
+    private int mennyiseg;
+    private double ar;
+
+    public Long getId() {
+        return id;
     }
 
+    public String getCikkszam() {
+        return cikkszam;
+    }
+
+    public String getNev() {
+        return nev;
+    }
+
+    public int getMennyiseg() {
+        return mennyiseg;
+    }
+
+    public double getAr() {
+        return ar;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setCikkszam(String cikkszam) {
+        this.cikkszam = cikkszam;
+    }
+
+    public void setNev(String nev) {
+        this.nev = nev;
+    }
+
+    public void setMennyiseg(int mennyiseg) {
+        this.mennyiseg = mennyiseg;
+    }
+
+    public void setAr(double ar) {
+        this.ar = ar;
+    }
 }
