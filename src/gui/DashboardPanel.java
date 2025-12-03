@@ -308,9 +308,9 @@ public class DashboardPanel extends JPanel {
             tableModel.addRow(new Object[]{
                     p.name,
                     p.category,
-                    p.stock,
-                    p.sellingPrice,
-                    totalValue
+                    (Object) p.stock,
+                    (Object) p.sellingPrice,
+                    (Object) totalValue
             });
         }
     }
