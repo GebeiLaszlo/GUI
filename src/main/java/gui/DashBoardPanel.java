@@ -1,6 +1,7 @@
 package gui;
 
 import model.Product;
+import model.StoreStats;
 import model.WarehouseStats;
 import service.ApiClient;
 import service.MockProductService;
