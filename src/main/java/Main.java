@@ -1,4 +1,4 @@
-import gui.DashboardPanel;
+import gui.DashBoardPanel;
 
 import javax.swing.*;
 
@@ -16,7 +16,7 @@ public class Main {
         SwingUtilities.invokeLater(() -> {
             JFrame frame = new JFrame("Raktár Dashboard");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            frame.setContentPane(new DashboardPanel());
+            frame.setContentPane(new DashBoardPanel());
 
             frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
             frame.setLocationRelativeTo(null);

@@ -21,7 +21,7 @@ import java.awt.event.MouseEvent;
 import java.text.DecimalFormat;
 import java.util.List;
 
-public class DashboardPanel extends JPanel {
+public class DashBoardPanel extends JPanel {
 
     private final MockProductService productService = new MockProductService();
     private final MockWarehouseStatsService statsService = new MockWarehouseStatsService();
@@ -47,7 +47,7 @@ public class DashboardPanel extends JPanel {
     private DefaultTableModel tableModel;
     private TableRowSorter<DefaultTableModel> rowSorter;
 
-    public DashboardPanel() {
+    public DashBoardPanel() {
         setLayout(new BorderLayout(16, 16));
         setBorder(new EmptyBorder(16, 16, 16, 16));
         setBackground(new Color(235, 238, 243));

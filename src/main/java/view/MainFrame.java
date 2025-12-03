@@ -1,5 +1,6 @@
 package view;
 
+import gui.DashBoardPanel;
 import model.Product;
 import model.SellBuyDialog;
 import service.ProductService;
