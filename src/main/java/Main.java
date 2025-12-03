@@ -1,5 +1,3 @@
-package app;
-
 import gui.DashboardPanel;
 
 import javax.swing.*;
@@ -25,4 +23,5 @@ public class Main {
             frame.setVisible(true);
         });
     }
+
 }
