@@ -1,4 +1,4 @@
-module GUI {
+module bolt.frontend {
     opens view to java.desktop;
 
     requires java.desktop;
