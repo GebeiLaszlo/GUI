@@ -12,6 +12,7 @@ gui\DashBoardPanel$2.class
 Main.class
 gui\DashBoardPanel.class
 model\StoreStats.class
+module-info.class
 service\MockWarehouseStatsService.class
 model\Product.class
 model\SellBuyDialog.class

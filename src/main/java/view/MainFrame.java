@@ -26,7 +26,9 @@ public class MainFrame extends JFrame {
 
         initUI();
         loadProducts();
+
     }
+
 
     private void initUI() {
         setLayout(new BorderLayout(10, 10));
