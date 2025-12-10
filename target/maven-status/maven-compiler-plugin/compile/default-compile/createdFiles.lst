@@ -9,7 +9,6 @@ view\MainFrame.class
 view\ProductFromDialog.class
 config\AppConfig.class
 gui\DashBoardPanel$2.class
-Main.class
 gui\DashBoardPanel.class
 model\StoreStats.class
 module-info.class
@@ -17,6 +16,7 @@ service\MockWarehouseStatsService.class
 model\Product.class
 model\SellBuyDialog.class
 gui\DashBoardPanel$1.class
+view\Main.class
 gui\DashBoardPanel$4.class
 service\ProductService.class
 service\TransactionService.class

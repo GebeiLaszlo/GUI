@@ -29,7 +29,7 @@
             <version>3.3.0</version> <configuration>
             <archive>
                 <manifest>
-                    <mainClass>view.MainFrame</mainClass>
+                    <mainClass>view.Main</mainClass>
                 </manifest>
             </archive>
         </configuration>
