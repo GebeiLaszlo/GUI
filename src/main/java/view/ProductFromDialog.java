@@ -11,10 +11,10 @@ public class ProductFromDialog extends JDialog {
     private final ProductService service = new ProductService();
     private final Product editing; // null = új termék, != null = szerkesztés
 
-    private JTextField tfCikkszam = new JTextField();
-    private JTextField tfNev = new JTextField();
-    private JTextField tfMennyiseg = new JTextField();
-    private JTextField tfAr = new JTextField();
+    private final JTextField tfCikkszam = new JTextField();
+    private final JTextField tfNev = new JTextField();
+    private final JTextField tfMennyiseg = new JTextField();
+    private final JTextField tfAr = new JTextField();
 
     public ProductFromDialog(Frame owner, Product editing) {
         super(owner, editing == null ? "Új termék" : "Termék szerkesztése", true);

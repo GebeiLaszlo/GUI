@@ -16,7 +16,7 @@ public class MainFrame extends JFrame {
     private JTable table;
     private DefaultTableModel model;
 
-    private JTextField tfSearch = new JTextField();
+    private final JTextField tfSearch = new JTextField();
 
     public MainFrame() {
         setTitle("Raktár Kezelő");

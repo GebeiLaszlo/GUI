@@ -1,6 +1,5 @@
 package view;
 
-import gui.DashBoardPanel;
 import javax.swing.SwingUtilities;
 
 import javax.swing.*;
